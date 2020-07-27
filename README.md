@@ -10,7 +10,11 @@ MAC-changer
 A simple python script to change mac address easily
 
 how to run the script :
-type in terminal : python mac_changer.py 
+type in terminal :
+1-git clone https://github.com/Ajit-Tabiyad/mac_changer
+2-cd mac_changer
+3
+python mac_changer.py 
 
 For help type : python mac_changer.py --help
 
