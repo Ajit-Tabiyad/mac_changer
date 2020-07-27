@@ -3,8 +3,6 @@
 import subprocess
 import optparse
 
-print("CREDIT : AJIT TABIYAD")
-
 def get_arguments():
     parser = optparse.OptionParser()
     parser.add_option("i", "--interface", dest="interface", help="Interface To change its MAC Address")
