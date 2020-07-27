@@ -9,18 +9,18 @@ def get_arguments():
     parser.add_option("m", "--mac", dest="new_mac", help="New MAC Address")
     (options, arguments) = parser.parse_args()
     if not options.interface:
-        parser.error("[-] Please specify an interface, Use --help fore more info.")
-
-    elif not options.new_mac
-        parser.error("[-]Please specify A new mac, Use --help fore more info.")
+        parser.error("[-] Please specify an interface(i.e.:wlan0), Use --help fore more info.")
+    elif not options.new_mac:
+        parser.error("[-]Please specify A new mac(i.e.:11:22:33:44:55:66) , Use --help fore more info.")
     return  options
 
-def change_mac(interface, new_mac):
-    print("[+]Changing MAC Address For" + interface + "To" + new_mac)
 
-    subprocess.call("[ifconfig", interface, "down"])
-    subprocess.call("[ifconfig", interface, "hw", "ether", new_mac])
-    subprocess.call("[ifconfig", interface, "up"])
+
+def change_mac(interface, new_mac):
+    print("[+]Changing MAC Address For " + interface + " To " + new_mac)
+    subprocess.call(["ifconfig", interface, "down"])
+    subprocess.call(["ifconfig", interface, "hw", "ether", new_mac])
+    subprocess.call(["ifconfig", interface, "up"])
 
 options = get_arguments()
 change_mac(options.interface, options.new_mac)
