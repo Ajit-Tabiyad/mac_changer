@@ -1,9 +1,13 @@
 # mac_changer
+
  MAC Address Changer
  =============== 
- MAC Changer is an utility that makes the manipulation of MAC addresses of network interfaces easier. 
- - Repository:https://github.com/Ajit-Tabiyad/mac_changer
- All the best, Ajit Tabiyad
+
+MAC Changer is an utility that makes the manipulation of MAC addresses of network interfaces easier. 
+
+- Repository:https://github.com/Ajit-Tabiyad/mac_changer
+
+All the best, Ajit Tabiyad
 
 
 MAC-changer
