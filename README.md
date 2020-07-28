@@ -19,7 +19,8 @@ type in terminal :
 
 2- cd mac_changer
 
-3- python3 mac_changer.py -i interface -m new_mac
+3- python mac_changer.py -i interface -m new_mac
+OR python3 mac_changer.py -i interface -m new_mac
 ((example: python3 mac_changer.py -i wlan0 -m 00:11:22:33:44:55))
 
 **NOTE* if you get error of non permitting than try with sudo(as admin).
