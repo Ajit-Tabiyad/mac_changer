@@ -1,6 +1,7 @@
 # mac_changer
 
  MAC Address Changer
+ or mac spammer
  =============== 
 
 MAC Changer is an utility that makes the manipulation of MAC addresses of network interfaces easier. 
